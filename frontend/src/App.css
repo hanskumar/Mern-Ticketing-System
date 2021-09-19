@@ -1,0 +1,47 @@
+.default-layout {
+  display: gird;
+  grid-template-rows: 80px auto 3rem;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
+}
+
+header {
+  grid-area: header;
+}
+
+main {
+  grid-area: main;
+  min-height: 88vh;
+}
+
+footer {
+  grid-area: footer;
+  background: black;
+  padding: 1rem;
+  color: white;
+}
+
+
+
+.entry-page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-box {
+  box-shadow: 0px 0px 15px -5px black;
+  width: 30%;
+}
+
+.bg-info1 {
+  background-color: #ffff !important;
+  margin-top: 15%;
+}
+
+p {
+  color: #e01010;
+}
